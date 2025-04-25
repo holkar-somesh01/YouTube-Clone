@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -15,7 +13,7 @@ const dummyHistory = [
         subscriber_count: '320K',
         profiles: {
             username: 'Traversy Media',
-            avatar_url: 'https://i.pravatar.cc/150?img=1',
+            avatar_url: 'https://yt3.ggpht.com/ytc/AMLnZu_UpHiI3uW2smxWxSyFCuQUbiTfZ0NzC1eL0A=s88-c-k-c0x00ffffff-no-rj',
         },
         watchedAt: '2024-04-20T12:00:00Z',
     },
@@ -30,7 +28,7 @@ const dummyHistory = [
         subscriber_count: '800K',
         profiles: {
             username: 'Programming with Mosh',
-            avatar_url: 'https://i.pravatar.cc/150?img=2',
+            avatar_url: 'https://yt3.ggpht.com/ytc/AMLnZu_MoshAvatar=s88-c-k-c0x00ffffff-no-rj',
         },
         watchedAt: '2024-04-18T14:00:00Z',
     },
@@ -45,11 +43,40 @@ const dummyHistory = [
         subscriber_count: '620K',
         profiles: {
             username: 'The Net Ninja',
-            avatar_url: 'https://i.pravatar.cc/150?img=3',
+            avatar_url: 'https://yt3.googleusercontent.com/ytc/AMLnZu8NinjaAvatar=s88-c-k-c0x00ffffff-no-rj',
         },
         watchedAt: '2024-04-19T08:30:00Z',
     },
-    // Add more history data as needed...
+    {
+        id: 'zJSY8tbf_ys',
+        title: 'JavaScript Full Course (2024)',
+        video_url: 'https://www.youtube.com/embed/zJSY8tbf_ys',
+        description: 'Everything you need to learn JavaScript in one video!',
+        created_at: '2024-02-01T11:00:00Z',
+        views_count: 3400000,
+        likes_count: 98000,
+        subscriber_count: '1.1M',
+        profiles: {
+            username: 'freeCodeCamp.org',
+            avatar_url: 'https://yt3.ggpht.com/ytc/AMLnZu_FCCAvatar=s88-c-k-c0x00ffffff-no-rj',
+        },
+        watchedAt: '2024-04-17T10:00:00Z',
+    },
+    {
+        id: 'RVhgb6yfq4E',
+        title: 'BB Ki Vines - Papa Makhichoos',
+        video_url: 'https://www.youtube.com/embed/RVhgb6yfq4E',
+        description: 'Hilarious episode featuring BB’s iconic characters.',
+        created_at: '2022-07-10T15:00:00Z',
+        views_count: 18000000,
+        likes_count: 960000,
+        subscriber_count: '26M',
+        profiles: {
+            username: 'BB Ki Vines',
+            avatar_url: 'https://yt3.ggpht.com/ytc/AMLnZu8BBAvatar=s88-c-k-c0x00ffffff-no-rj',
+        },
+        watchedAt: '2024-04-16T17:45:00Z',
+    },
 ];
 
 function History() {

@@ -10,6 +10,7 @@ import History from './pages/History';
 import WatchLater from './components/WatchLater';
 import YourVideos from './pages/YourVideo';
 import { FaHome, FaCompass, FaHistory, FaThumbsUp } from 'react-icons/fa';
+import LikedVideos from './pages/LikedVideos';
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -36,6 +37,7 @@ function App() {
               <Route path="/history" element={<History />} />
               <Route path="/watch-later" element={<WatchLater />} />
               <Route path="/your-videos" element={<YourVideos />} />
+              <Route path="/liked" element={<LikedVideos />} />
             </Routes>
           </main>
         </div>
